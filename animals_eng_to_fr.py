@@ -10,7 +10,7 @@ translations={
     "spider": "l'araignée"
     }
 print("WELCOME TO THE ENGLISH TO FRENCH ANIMAL TRANSLATOR!")
-word=input("Enter an animal in English to translate it to French").lower()
+word=input("Enter an animal in English to translate it to French\n").lower()
 if word in translations:
     print(f"The translation of {word} is {translations[word]}")
 else:
